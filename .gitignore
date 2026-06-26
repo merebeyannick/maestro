@@ -28,3 +28,4 @@ pnpm-debug.log*
 .idea/
 public/university_cad_logo.png
 public/me.png
+.claude
