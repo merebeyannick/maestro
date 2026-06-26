@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false
+
+peerDependencyRules:
+  allowedVersions:
+    tsconfck>typescript: "6"
