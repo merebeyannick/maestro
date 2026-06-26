@@ -26,3 +26,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+public/university_cad_logo.png
+public/me.png
