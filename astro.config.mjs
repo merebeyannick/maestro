@@ -42,4 +42,5 @@ export default defineConfig({
     remarkPlugins: [remarkGfm, remarkCodeMeta],
     rehypePlugins: [[rehypePrettyCode, prettyCodeOptions]],
   },
+  devToolbar: { enabled: false },
 });
