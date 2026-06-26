@@ -1,9 +1,11 @@
 import { Icons } from "@/components/icons";
-import { House, Library } from "lucide-react";
+import { House, Library, Workflow, Layers, Cloud, BrainCircuit, Bot } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Docker } from "@/components/ui/svgs/docker";
+import { FastAPI } from "@/components/ui/svgs/fastapi";
+import { Aws } from "@/components/ui/svgs/aws";
 
 export const DATA = {
   name: "Yannick Abiguime",
@@ -52,23 +54,17 @@ export const DATA = {
   photos: [],
   skills: [
     { name: "Python", icon: Python },
-    { name: "SQL", icon: Postgresql },
+    { name: "MySQL / PostgreSQL", icon: Postgresql },
     { name: "JavaScript", icon: Nodejs },
     { name: "Docker", icon: Docker },
-    { name: "PySpark" },
-    { name: "Bash" },
-    { name: "FastAPI" },
-    { name: "Apache Airflow" },
-    { name: "dbt" },
-    { name: "BigQuery" },
-    { name: "GCP" },
-    { name: "AWS" },
-    { name: "MySQL / PostgreSQL" },
-    { name: "GitHub Actions" },
-    { name: "RAG Pipelines" },
-    { name: "LLM APIs" },
-    { name: "Pandas / NumPy" },
-    { name: "Machine Learning" },
+    { name: "FastAPI", icon: FastAPI },
+    { name: "Apache Airflow", icon: Workflow },
+    { name: "dbt", icon: Layers },
+    { name: "GCP", icon: Cloud },
+    { name: "AWS", icon: Aws },
+    { name: "GitHub", icon: Icons.github },
+    { name: "RAG Pipelines", icon: BrainCircuit },
+    { name: "LLM APIs", icon: Bot },
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
